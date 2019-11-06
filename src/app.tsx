@@ -22,6 +22,30 @@ class App extends Component {
     pages: [
       'pages/index/index'
     ],
+    tabBar: {
+      color: '#7d7e80',
+      selectedColor: '#fdbc20',
+      list: [
+        {
+          pagePath: 'pages/index/index',
+          text: '客户',
+          iconPath: './static/images/customer.png',
+          selectedIconPath: './static/images/on_customer.png'
+        },
+        {
+          pagePath: 'pages/index/index',
+          text: '我的下线',
+          iconPath: './static/images/myOffline.png',
+          selectedIconPath: './static/images/on_myOffline.png'
+        },
+        {
+          pagePath: 'pages/index/index',
+          text: '楼盘',
+          iconPath: './static/images/building.png',
+          selectedIconPath: './static/images/on_building.png'
+        }
+      ]
+    },
     window: {
       backgroundTextStyle: 'light',
       navigationBarBackgroundColor: '#fff',
